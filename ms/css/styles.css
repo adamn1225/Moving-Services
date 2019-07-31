@@ -1,0 +1,52 @@
+
+
+li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.dm-nav {
+  display: inline-table;
+  margin-left:35%;
+}
+
+.dm-nav li{
+  display: inline;
+  margin: 0px 40px;
+}
+
+.top-img{
+  background: url("../images/main-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.moving-info {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.34);
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 380px;
+  padding-top: 100px;
+  padding-bottom: 100px
+}
+
+.moving-questions {
+  margin-left: 35%;
+}
+
+.moving-questions input {
+  margin-right:15px;
+}
